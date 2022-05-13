@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+html, body {
+    background: #efefef;
+}
+
+body, h1, h2, h3, h4, h5, div, p, ul, li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    color: royalblue;
+}
+
+ul {
+    padding: 0 40px;
+}
+
+.page {
+    padding: 0 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.header, .footer {
+    background: yellowgreen;
+    padding: 10px 20px;
+}
+
+.nav {
+    background: black;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    display: block;
+    padding: 0 50px;
+    color: white;
+}
+
+.main {
+    padding: 10px 20px;
+    margin: 0 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.style-title {
+    text-align: center;
+}
+
+.style-title::before {
+    content: 'RYO FUJIOKA';
+}
+
+.style-title::after {
+    content: ' / 藤岡亮';
+}
+
+.scale {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.pc-oris {
+    width: 500px;
+    height: 300px;
+}
+
+.list-of-type {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed black;
+}
+
+.sple {
+    margin-left: 100px;
+}
+
+.footer {
+    margin-top: 20px;
+}
