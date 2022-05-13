@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.num {
+    text-align: center;
+}
+
+.ulist {
+    display: flex;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .ulist {
+        flex-flow: column;
+    }
+}
+
+.ulist li {
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .ulist li {
+        margin-left: 0;
+    }
+}
+
+.ulist .heights:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.ulist h3 {
+    text-align: center;
+}
+
+.heights {
+    transition: all 1s ease;
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+}
+
+form {
+    padding: 0 40px;
+}
+
+input[type="text"], input[type="email"] {
+    transition: all 1s;
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    border-radius: 10px;
+    width: 20%;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    transition: all 1s;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

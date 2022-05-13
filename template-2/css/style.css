@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/* --- 基本 --- */
+
+html, body {
+    background: #efefef;
+}
+
+body, h1, h2, h3, h4, h5, h6, div, p, ul, li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+a:active {
+    color:aqua;
+}
+
+ul {
+    padding: 0 40px;
+}
+
+.page {
+    padding: 0 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+/* --- 基本 --- */
+
+/* --- ヘッダー --- */
+
+.header, .footer {
+    background: yellowgreen;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .head, .foot {
+        margin: 0 auto;
+    }
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.image-happiness {
+    width: 250px;
+    height: 75px;
+    background: url(../home-image-1.png);
+    background-size: contain;
+    transform: rotate(3deg);
+}
+
+.image-happiness:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.header span {
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#btns {
+    display: none;
+}
+
+/* --- ヘッダー --- */
+
+.main {
+    margin: 0 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* --- ナビ --- */
+
+.nav {
+    background: black;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .asnav {
+        transition: transform 1s;
+        transform: translateX(1024px);
+    }
+
+    .asanav {
+        transition: transform 0.5s;
+        transform: translateX(0px);
+    }
+
+    #btns {
+        display: block;
+        margin-left: 50px;
+        background: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}
+
+.nav a {
+    display: block;
+    padding: 0px 50px;
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.nav a:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+/* --- ナビ --- */
+
+/* --- フッター --- */
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer p {
+    text-align: right;
+}
+
+/* --- フッター --- */

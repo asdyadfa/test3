@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+.sidebar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.height {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.main-prof {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px dashed black;
+}
+
+.heightsa {
+    font-weight: bold;
+}
+
+.icon {
+    margin: 0 auto;
+    width: 250px;
+    height: 75px;
+    background: url(../home-image-1.png);
+    background-size: contain;
+}
+
+.song-prof {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .song-prof {
+        display: block;
+    }
+}
+
+.ideas {
+    cursor: pointer;
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+    .ideas {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+}
+
+.idea {
+    width: 250px;
+    height: 75px;
+}
+
+.spel {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .spel {
+        margin: 0;
+    }
+}
+
+.list h3 {
+    text-align: center;
+}
+
+.url-lists a {
+    margin-left: 10px;
+}
+
+.tm::after {
+    content: '™';
+    color: black;
+}

@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+.main {
+    background: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+}
+
+.height {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.xxk {
+    width: 50px;
+    height: 50px;
+}
+
+.spec-list .p, .spec-list address {
+    text-align: center;
+}
+
+.speosti {
+    margin-bottom: 10px;
+}
+
+.members .title {
+    display: inline;
+    color: blue;
+}
+
+.membersp {
+    cursor: pointer;
+}
+
+.toto::after {
+    font-weight: normal;
+    font-size: 14px;
+    content: 'クリックし展開'
+}
+
+.membersp:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.member {
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.dismem {
+    display: none;
+}
+
+.member li {
+    cursor: pointer;
+    background: linear-gradient(-225deg, #00f7ff 0%, rgb(191, 241, 23) 56%, pink 100%);
+    margin-right: 60px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.member:last-child li {
+    margin-bottom: 10px;
+}
+
+.member li:last-child {
+    margin-right: 0;
+}
+
+.member h3 {
+    text-align: center;
+}
+
+.memberss {
+    width: 200px;
+    height: 200px;
+}
+
+.memberssk {
+    position: relative;
+    top: -40px;
+    left: 73px;
+    width: 50px;
+    height: 50px;
+    background: url(../image/circle.png);
+    background-size: contain;
+}
+
+.margin-bord {
+    margin-left: 0;
+    transition: all 1s;
+}
+
+.margins {
+    margin-left: 1243px;
+    transition: all 1s;
+}
+
+.stay-take {
+    animation: sparkeys 1s 1;
+    animation-fill-mode: forwards;
+    text-align: center;
+    position: fixed;
+    bottom: 100px;
+    box-sizing: border-box;
+    width: 95%;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+@keyframes sparkeys {
+    0% {transform: translateY(-800px)}
+    100% {transform: translateY(0)};
+}
+
+.opacitys {
+    animation: sparkey 1s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sparkey {
+    100% {transform: translateY(-800px)};
+}
+
+#sorrywaits, .sorrywaits, .sorrywaitss {
+    font-size: 13.3333px;
+    padding: 1px 6px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    left: 40px;
+    border: none;
+    height: 22px;
+    background: linear-gradient(-225deg, skyblue 0%, yellow 100%);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.sorrywaits {
+    cursor: auto;
+    left: 220px;
+}
+
+.sorrywaitss {
+    bottom: 550px;
+    width: 95%;
+}
+
+.togglestar {
+    animation: fire-works 1s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fire-works {
+    0% {transform: translateY(-2000px);};
+    100% {transform: translateY(0);};
+}
+
+.spel-opacity {
+    animation: opacity-zero 0.5s 1;
+}
+
+@keyframes opacity-zero {
+    0% {opacity: 0;};
+    100% {opacity: 1;};
+}
+
+.spel-opacitys {
+    animation: opacitys-zero 0.5s 1;
+}
+
+@keyframes opacitys-zero {
+    0% {opacity: 0;};
+    100% {opacity: 1;};
+}
+
+.video-inner li {
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.videos video {
+    padding: 20px 20px;
+}
+
+.play-title {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.highland {
+    position: fixed;
+    bottom: 100px;
+    padding: 20px 0;
+    width: 95%;
+    text-align: center;
+    background:rgb(255, 255, 255, 0.75);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.umbs {
+    animation: fire-work 1s 1;
+    animation-fill-mode: forwards;
+}
+
+.umbsd {
+    transform: translateY(-2000px)
+}
+
+@keyframes fire-work {
+    100% {transform: translateY(-2000px);};
+}
+
+input[type="text"], input[type="email"], textarea {
+    transition: all 1s;
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    border-radius: 10px;
+    width: 20%;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 180px;
+    font-weight: bold;
+    line-height: 20px;
+    border: 2px solid black;
+    padding: 10px 5px;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.numb button {
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border: none;
+    border-radius: 50%;
+}
+
+.video {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px dashed black;
+}
+
+.video h3 {
+    text-align: center;
+    animation: desseh 2s;
+}
+
+@keyframes desseh {
+    0% {opacity: 0.19; transform: scale(1.4)};
+    50% {opacity: 0.3; transform: scale(1.3);}
+    100% {opacity: 1; transform: scale(1)};
+}
+
+.video .style {
+    text-align: center;
+    animation: desse 2s;
+}
+
+@keyframes desse {
+    0% {opacity: 0.19; transform: scale(1.4)};
+    50% {opacity: 0.3; transform: scale(1.3);}
+    100% {opacity: 1; transform: scale(1)};
+}
+
+.hand {
+    text-align: center;
+}
